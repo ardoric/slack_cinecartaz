@@ -21,5 +21,5 @@ for filme in estreias['filmes']:
     message += '\n'
 
 # slack.chat_post_message('@ardoric', message, username='moviebot', icon_url='https://dl.dropboxusercontent.com/u/15116829/moviebot.jpg')
-slack.chat_post_message('#movie-night', message, username='moviebot', icon_url='https://dl.dropboxusercontent.com/u/15116829/moviebot.jpg')
+slack.chat_post_message('#movie-night', message, username='moviebot', icon_url='https://raw.githubusercontent.com/ardoric/slack_cinecartaz/master/moviebot.jpg')
 
